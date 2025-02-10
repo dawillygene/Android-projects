@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">Navigation_drawer</string>
+    <string name="nav_open" translatable="false">Open Navigation</string>
+    <string name="nav_close" translatable="false">Close Navigation</string>
+    <string name="department" translatable="false">
+        The Science Department is a vibrant hub of innovation and learning, inspiring the next generation of scientists.
+    </string>
+    <string name="hello_blank_fragment" translatable="false">
+        Welcome to the Science Department!
+    </string>
+</resources>
