@@ -40,10 +40,12 @@ public class MainActivity extends AppCompatActivity {
                 if(!note.isEmpty()){
 
                     String savedNotes = sharedPreferences.getString("notes","");
-                    savedNotes += note + "\n\n";
+
                     SharedPreferences.Editor editor = sharedPreferences.edit();
+                    savedNotes += note + "\n\n";
                     editor.putString("notes",savedNotes);
                     editor.apply();
+
                     notesTextView.setText("Notes are : \n\n" + savedNotes);
                     noteEditText.setText("");
                     
